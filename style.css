@@ -1,0 +1,91 @@
+@font-face {
+    font-family: 'Minecraft';
+    src: url(minecraft_font.ttf) format('truetype');
+}
+
+body {
+    background-image: url(bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    user-select: none;
+    font-family: 'Minecraft', sans-serif;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.calculator {
+    font-family: 'Minecraft', sans-serif;
+    display: grid;
+    grid-template-columns: repeat(4, 15vh);
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    margin: 0;
+}
+
+button {
+    border: 0;
+    font-family: 'Minecraft', sans-serif;
+    padding: 50px;
+    font-size: 30px;
+    color: white;
+    background-image: url(darkplank.png);
+}
+
+button:hover {
+    cursor: pointer;
+    background-image: url(plank.png);
+    transition: 0.5s;
+}
+
+button:active,
+button.clavier-active { 
+    background-image: url(whiteplank.png);
+    color: black;
+}
+
+input {
+    margin-top: 5%;
+    border: 0;
+    font-family: 'Minecraft', sans-serif;
+    padding: 50px;
+    color: white;
+    background-image: url(darkplank.png);
+    grid-column: span 4;
+    margin-bottom: 15px;
+}
+
+#ecran {
+    border: 0;
+    font-family: 'Minecraft', sans-serif;
+    grid-column: span 4;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    background-image: url(vitre.png);
+    color: black;
+    text-align: right;
+    font-size: 60px;
+    border-radius: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.wrap {
+    color : white;
+    font-size: 25px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
