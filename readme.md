@@ -29,5 +29,4 @@ https://minecraft-calculatrice.netlify.app/
 
 ## Utilisation
 
-- Lancez le jeu dans votre navigateur.
-- Et calculez !
+- Lancez la calculatrice dans votre navigateur et calculez ! 
