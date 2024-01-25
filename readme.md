@@ -1,6 +1,6 @@
-# Tic Tac Doh
+# Calculatrice Minecraft
 
-![Accueil de Tic Tac Doh](gif.gif)
+![Accueil de Calculatrice Minecraft](gif.gif)
 
 ## Description
 
