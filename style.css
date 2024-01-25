@@ -13,7 +13,6 @@ body {
     padding: 0;
     user-select: none;
     font-family: 'Minecraft', sans-serif;
-    background-size: cover;
     overflow: hidden;
 }
 
@@ -26,6 +25,16 @@ body {
     justify-content: center;
     align-content: center;
     margin: 0;
+}
+
+@media (max-width: 768px) {
+
+    .calculator {
+        zoom: 70%;
+    }
+    footer {
+        zoom: 70%;
+    }
 }
 
 button {
