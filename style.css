@@ -130,7 +130,6 @@ a {
     transition: 1s;
 }
 
-
 .github:hover {
     content: url(github2.png);
     transform: rotate(360deg);
