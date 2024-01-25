@@ -32,7 +32,7 @@ function gererAppuiClavier(touche) {
     case "Escape":
       ClearEcran();
       break;
-    case "c":
+    case "C":
       ClearEcran();
       break;
     case "0":
