@@ -125,7 +125,14 @@ a {
     text-align: center;
 }
 
+.github {
+    transform: rotate(-360deg);
+    transition: 1s;
+}
+
 
 .github:hover {
     content: url(github2.png);
+    transform: rotate(360deg);
+    transition: 1s;
 }
