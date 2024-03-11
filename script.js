@@ -1,4 +1,10 @@
+let derniereOperation = false;
+
 function AjoutEcran(value) {
+  if ((derniereOperation == true) && (value != ['=', '+', '-', '*', '/'])) {
+    ClearEcran();
+    derniereOperation = false;
+  }
   document.getElementById("ecran").value += value;
 }
 
@@ -10,6 +16,7 @@ function Calculer() {
   let ecranValue = document.getElementById("ecran").value;
   let result = eval(ecranValue);
   document.getElementById("ecran").value = result;
+  derniereOperation = true;
 }
 
 function gererAppuiClavier(touche) {
